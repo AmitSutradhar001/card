@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="bg-[#200E3A] flex justify-center h-screen items-center">
+      <div class="bg-[#38419D] rounded-2xl p-2 mx-6">
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <img
+            src="./krishna.jpeg"
+            alt=""
+            class="h-60 rounded-xl object-fit md:rounded-l-xl md:rounded-r-none transform hover:scale-110 hover:rounded-xl duration-200"
+          />
+          <div class="p-6 md:p-12">
+            <h2
+              class="font-serif text-xl font-medium text-center text-white md:text-left"
+            >
+              Jai Krishna
+            </h2>
+
+            <p
+              class="text-center text-white max-w-xs md:text-left my-4 leading-5 traking-wide"
+            >
+              Decisions taken in anger are always detrimental and often result
+              in repentance !
+            </p>
+            <input
+              type="text"
+              placeholder="Enter your email !"
+              class="p-2 px-4 text-center text-white bg-[#3887BE] border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:text-left focus:outline-none"
+            />
+            <button
+              class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:text-white duration-500 hover:bg-lime-700"
+            >
+              Suscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
